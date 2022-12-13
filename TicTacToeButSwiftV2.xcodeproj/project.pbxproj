@@ -11,6 +11,8 @@
 		E868993229481F4E0065B179 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E868993129481F4E0065B179 /* ContentView.swift */; };
 		E868993429481F4F0065B179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E868993329481F4F0065B179 /* Assets.xcassets */; };
 		E868993829481F4F0065B179 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E868993729481F4F0065B179 /* Preview Assets.xcassets */; };
+		E868993F29481F990065B179 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E868993E29481F990065B179 /* Cell.swift */; };
+		E8689941294821A50065B179 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8689940294821A50065B179 /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		E868993329481F4F0065B179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E868993529481F4F0065B179 /* TicTacToeButSwiftV2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TicTacToeButSwiftV2.entitlements; sourceTree = "<group>"; };
 		E868993729481F4F0065B179 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E868993E29481F990065B179 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		E8689940294821A50065B179 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +40,7 @@
 		E868992329481F4E0065B179 = {
 			isa = PBXGroup;
 			children = (
+				E868993E29481F990065B179 /* Cell.swift */,
 				E868992E29481F4E0065B179 /* TicTacToeButSwiftV2 */,
 				E868992D29481F4E0065B179 /* Products */,
 			);
@@ -54,6 +59,7 @@
 			children = (
 				E868992F29481F4E0065B179 /* TicTacToeButSwiftV2App.swift */,
 				E868993129481F4E0065B179 /* ContentView.swift */,
+				E8689940294821A50065B179 /* GameState.swift */,
 				E868993329481F4F0065B179 /* Assets.xcassets */,
 				E868993529481F4F0065B179 /* TicTacToeButSwiftV2.entitlements */,
 				E868993629481F4F0065B179 /* Preview Content */,
@@ -140,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E868993229481F4E0065B179 /* ContentView.swift in Sources */,
+				E8689941294821A50065B179 /* GameState.swift in Sources */,
 				E868993029481F4E0065B179 /* TicTacToeButSwiftV2App.swift in Sources */,
+				E868993F29481F990065B179 /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
